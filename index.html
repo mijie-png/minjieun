@@ -191,12 +191,31 @@
     </section>
 
     <section class="panel" id="t3" role="tabpanel" aria-label="상담신청&연락">
-      <!-- Head 1: Naver Reservation -->
-      <div class="section">
-        <div class="section__head">
-          <h2>네이버 예약</h2>
-          <p class="section__desc">업무별 예약 경로입니다.<br>지금 바로 예약주세요!!</p>
-        </div>
+      <!-- 게시판 -->
+<div class="section">
+  <div class="section__head">
+    <h2>우리반 질문 게시판</h2>
+    <p class="section__desc">궁금한 점을 남기면 친구들이 댓글로 답해요.</p>
+  </div>
+
+  <div id="disqus_thread"></div>
+
+  <script>
+    var disqus_config = function () {
+      this.page.url = window.location.href;
+      this.page.identifier = "hanbit18-board";
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://hanbit-1-8.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+
+  <noscript>댓글을 보려면 JavaScript를 활성화하세요.</noscript>
+</div>
 
         <div class="grid">
           <a class="actionTile" data-cta="register_bangmoon" data-card="t3" href="https://naver.me/5f5pEd3p" target="_blank" rel="noopener">
