@@ -1,4 +1,4 @@
-# KT플라자 만남로점 통합 웹페이지 (GitHub Pages)
+# 대전한빛고등학교 1학년 8반 웹페이지 (GitHub Pages)
 
 ## 1) 업로드 방법
 1. GitHub에서 새 Repository 생성
