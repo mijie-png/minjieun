@@ -439,26 +439,5 @@
     </section>
   </main>
 
-  <script src="script.js"></script>
-    <!-- Service Worker registration for PWA -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('service-worker.js')
-          .then(function(reg) {
-            console.log('ServiceWorker registered:', reg.scope);
-          })
-          .catch(function(error) {
-            console.log('ServiceWorker registration failed:', error);
-          });
-      });
-    }
-  </script>
-  <!-- Floating Naver Reservation Button -->
-  <a class="fabNaver" data-cta="naver_reserve" data-card="floating" href="https://naver.me/5f5pEd3p" target="_blank" rel="noopener" aria-label="네이버 예약 바로가기">
-    <span class="fabNaver__logo" aria-hidden="true">N</span>
-    <span class="fabNaver__text">예약</span>
-  </a>
-
 </body>
 </html>
